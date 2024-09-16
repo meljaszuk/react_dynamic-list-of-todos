@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 import React from 'react';
 import 'bulma/css/bulma.css';
 import '@fortawesome/fontawesome-free/css/all.css';
@@ -10,7 +9,7 @@ import { Loader } from './components/Loader';
 
 export const App: React.FC = () => {
   return (
-    <>
+    <div>
       <div className="section">
         <div className="container">
           <div className="box">
@@ -29,6 +28,6 @@ export const App: React.FC = () => {
       </div>
 
       <TodoModal />
-    </>
+    </div>
   );
-};
+}
